@@ -142,6 +142,17 @@ main{
 	font-weight: bold;
 }
 
+.home_table button {
+	font-size: 14;
+	background: none;
+	border:	none;
+}
+
+.home_table button:hover{
+	text-decoration: underline;
+}
+
+
 .home_table .body td{
 	padding-left: 15px;
 	padding-bottom: 7px;
@@ -177,7 +188,7 @@ main{
 
 .home_table .body td:last-child{
 	text-align: center;
-	padding-left: 0;
+	padding-right: 40px;
 }
 
 .odd { 
@@ -216,8 +227,11 @@ main{
 	background-color: white;
 }
 
-/*FOOTER CONSTRUCTION*/
+.table_nav input{
+	width: 40px;
+}
 
+/*FOOTER CONSTRUCTION*/
 .boot {
 	background-color: 666767;
 	position: fixed;
